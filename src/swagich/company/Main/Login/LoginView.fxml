@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swagich.company.Main.Login.LoginViewController">
+   <children>
+      <VBox layoutX="130.0" layoutY="182.0" prefHeight="250.0" prefWidth="340.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="130.0" AnchorPane.rightAnchor="130.0" AnchorPane.topAnchor="180.0">
+         <children>
+            <JFXTextField fx:id="authField" focusColor="#003fff" labelFloat="true" maxWidth="347.0" minWidth="300.0" prefHeight="63.0" prefWidth="347.0" promptText="Authorization code">
+               <VBox.margin>
+                  <Insets bottom="20.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets bottom="20.0" top="10.0" />
+               </padding>
+            </JFXTextField>
+            <JFXPasswordField fx:id="pwdField" focusColor="#003fff" labelFloat="true" maxWidth="348.0" minWidth="300.0" prefHeight="43.0" prefWidth="348.0" promptText="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </JFXPasswordField>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <JFXButton alignment="CENTER" buttonType="RAISED" onAction="#checkin" prefWidth="110.0" style="-fx-border-style: solid inside; -fx-border-color: #4059a9; -fx-background-radius: 5; -fx-background-color: #FFFFFF;" text="CHECK IN">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/contacts-256.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swagich.company.Main.MainAppController">
+   <children>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="200.0" layoutX="14.0" layoutY="5.0" onMouseEntered="#showDrawer" onMouseExited="#hideDrawer" prefHeight="600.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <StackPane layoutX="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="600.0" prefWidth="400.0">
+                     <children>
+                        <AnchorPane fx:id="anchorPane" layoutY="80.0" prefHeight="670.0" prefWidth="600.0" snapToPixel="false" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+                           <children>
+                              <ImageView fitHeight="300.0" fitWidth="600.0" layoutX="14.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                 <image>
+                                    <Image url="@Images/icon0.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <Label fx:id="panel" layoutX="14.0" layoutY="14.0" prefHeight="38.0" prefWidth="262.0" textFill="#43487c">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

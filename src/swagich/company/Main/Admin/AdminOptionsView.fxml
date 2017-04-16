@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="swagich.company.Main.Admin.AdminOptionsController">
+   <children>
+      <VBox layoutX="186.0" layoutY="171.0" prefHeight="159.0" prefWidth="228.0">
+         <children>
+            <JFXButton prefHeight="50.0" prefWidth="226.0" style="-fx-border-color: #4059a9; -fx-border-radius: 5;" text="EMPLOYEE DETAILS">
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton defaultButton="true" prefHeight="50.0" prefWidth="226.0" style="-fx-border-color: #4059a9; -fx-border-radius: 5;" text="ATTENDANCE REVIEW">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

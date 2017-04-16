@@ -1,0 +1,20 @@
+
+How to setup 
+1.After downloading the zip file, extract it to a directory.
+2.On Netbeans, click File > Open project.
+3.Navigate to the location of the extracted files to open.
+4.On the Services tab add a new Mysql connection and note its URL.
+5.Go to the package swagich.company.DBConnection, open DBConnection.java file.
+6.Add the database URL to the file where specified and the hostname and password.
+7.Go to the package swagich.company.DBConnection, open CreateTables.java file.
+8.Right-click on the project and select clean and build.
+9.Right-click on the CreateTables.java > Run file, to create required tables.
+10.Right-click on the InsertDummyData.java > Run file,to enter some data into the tables.
+11.Now you can run the application, admin authorization code is AUTH3945 password admins4423.
+
+Mail feature
+1.Open ReportController.java swagich.company.Main.Report package, add your gmail address and password.
+ Make sure you enable less secure app for the sender gmail, google how.
+ 
+ You are good to go !
+ Feel free to contact me at samuelwainaina1994@gmail.com

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="670.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swagich.company.Main.Admin.Login.MainView.Employees.AdminController">
+   <children>
+      <TableView fx:id="table" layoutX="7.0" prefHeight="670.0" prefWidth="790.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="10.0">
+        <columns>
+          <TableColumn fx:id="namec" prefWidth="136.0" text="Employee_name" />
+          <TableColumn fx:id="phonec" prefWidth="92.0" text="phone_number" />
+            <TableColumn fx:id="idc" minWidth="4.0" prefWidth="78.0" text="id_number" />
+            <TableColumn fx:id="authc" prefWidth="73.0" text="Auth_code" />
+            <TableColumn fx:id="datec" prefWidth="109.0" text="Signup_date" />
+            <TableColumn fx:id="timec" prefWidth="81.0" text="Signup_time" />
+            <TableColumn fx:id="emailc" prefWidth="227.0" text="email" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

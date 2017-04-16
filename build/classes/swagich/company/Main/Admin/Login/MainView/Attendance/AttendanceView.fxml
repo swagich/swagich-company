@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="670.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60" fx:controller="swagich.company.Main.Admin.Login.MainView.Attendance.AttendanceController">
+   <children>
+      <TableView fx:id="tableView" layoutX="140.0" layoutY="26.0" prefHeight="618.0" prefWidth="523.0" AnchorPane.topAnchor="10.0">
+        <columns>
+          <TableColumn fx:id="Auth_code" prefWidth="157.0" text="Auth_code" />
+          <TableColumn fx:id="Reporting_date" minWidth="3.0" prefWidth="175.0" text="Reporting_date" />
+            <TableColumn fx:id="Reporting_time" prefWidth="190.0" text="Reporting_time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

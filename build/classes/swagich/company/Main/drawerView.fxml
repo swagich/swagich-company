@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swagich.company.Main.DrawerController">
+   <children>
+      <ImageView fitHeight="243.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/company160.png" />
+         </image>
+         <VBox.margin>
+            <Insets bottom="4.5" />
+         </VBox.margin>
+      </ImageView>
+      <JFXButton fx:id="admin" accessibleText="adminBtn" buttonType="RAISED" prefHeight="80.0" prefWidth="200.0" style="-fx-border-style: solid; -fx-border-color: gray;" text="ADMIN">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="register" accessibleText="registerBtn" prefHeight="80.0" prefWidth="200.0" style="-fx-border-style: solid; -fx-border-color: gray;" text="EMPLOYEE REGISTRATION">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="attendance" accessibleText="attendanceBtn" prefHeight="80.0" prefWidth="200.0" style="-fx-border-style: solid; -fx-border-color: gray;" text="ATTENDANCE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="report" accessibleText="reportBtn" prefHeight="80.0" prefWidth="200.0" style="-fx-border-style: solid; -fx-border-color: gray;" text="REPORT AN ISSUE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="exit" accessibleText="exitBtn" onAction="#close" prefHeight="80.0" prefWidth="200.0" style="-fx-border-style: solid; -fx-border-color: gray;" text="EXIT">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+   </children>
+</VBox>

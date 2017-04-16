@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="640.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swagich.company.Main.Registration.RegistrationController">
+   <children>
+      <VBox layoutX="100.0" layoutY="69.0" prefHeight="496.0" prefWidth="400.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="98.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="69.0">
+         <children>
+            <JFXTextField fx:id="fName" labelFloat="true" maxWidth="400.0" minWidth="400.0" prefHeight="33.0" prefWidth="400.0" promptText="First Name">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="lName" labelFloat="true" maxWidth="400.0" minWidth="400.0" prefHeight="35.0" prefWidth="400.0" promptText="Last Name">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="idNo" labelFloat="true" maxWidth="400.0" minWidth="400.0" prefHeight="25.0" prefWidth="400.0" promptText="ID Number">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="pNumber" labelFloat="true" maxWidth="400.0" minWidth="400.0" prefHeight="28.0" prefWidth="400.0" promptText="Phone Number">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="email" labelFloat="true" maxWidth="400.0" minWidth="400.0" prefHeight="25.0" prefWidth="400.0" promptText="Email">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="pwd1" labelFloat="true" maxWidth="400.0" minWidth="400.0" prefHeight="25.0" prefWidth="400.0" promptText="Choose Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <JFXPasswordField fx:id="pwd2" labelFloat="true" maxWidth="400.0" minWidth="400.0" prefHeight="18.0" prefWidth="400.0" promptText="Confirm Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <HBox alignment="CENTER" prefHeight="33.0" prefWidth="400.0">
+               <children>
+                  <JFXButton fx:id="registerBtn" onAction="#registerEmployee" style="-fx-border-style: solid; -fx-border-color: #003fff;" text="SIGN UP">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
